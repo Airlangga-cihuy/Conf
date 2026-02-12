@@ -3,11 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Static site: no build step"
+      - echo "build step OK"
 
 artifacts:
   files:
     - appspec.yml
-    - scripts/**/*
     - website/**/*
-
+    - scripts/**/*
